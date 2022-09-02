@@ -46,7 +46,7 @@ Figure 8. Visualization of Inner Product Score (Perturb Simulation * Development
 Figure 9. Genes Knocked Out vs. Inner Product Scores
 
 ## Question 4 How can your computational methods be translated to help engineer human cardiomyocytes?##
-	Same assessments and TF screening methods from question 1 to 3 were applied to human iPSCs. However, initially, we performed gene mapping for human cells on mouse cells as the two species have different names for orthologs. 
+Same assessments and TF screening methods from question 1 to 3 were applied to human iPSCs. However, initially, we performed gene mapping for human cells on mouse cells as the two species have different names for orthologs. 
 As shown in Figure 13, since the scores are all positive, knockout of each of the four TFs (Foxo1, Prdm1, Cux1, Ctcf) cannot provide enough improvement for the maturity of CMs, suggesting that they should be absent in order to support CM cells maturation. This result for Foxo1 is especially consistent with the previous result obtained by Uosaki et al (2015, Transcriptional landscape of Cardiomyocyte Maturation). Foxo1 was found to be decreased in expression in neonatal adult CM cells.
 
 
