@@ -11,7 +11,7 @@ Figure 2. Heatmap of Cell Types in Different Batches From the Reference Dataset.
 Figure 3. UMAP of Cardiac Muscle Cells, Fibroblast, and Smooth Muscle Cells
 	In terms of exploring the dataset, dimensionality reduction of Stone’s engineered CMs with uniform manifold approximation and projection (UMAP) revealed that clusters are formed for certain cell types (Fig.3). 
 
-## Question 2 How mature are your engineered cardiomyocytes?##
+## Question 2 How mature are your engineered cardiomyocytes? ##
 The CM cells were selected from the previous procedure. The second step is to determine the temporal maturity of the CM cells. Using the entropy method described in Kannan et al’s paper and the featured CM maturation TF (transcription factor) markers from Padula et al’s paper (2021), 
 Cells with higher maturity tend to have lower entropy values (Figure 4 & 5, Table 1). The engineered CM cells are relatively less mature with the majority of cells enriched at early time points, e14, e18 and p0 stages. Only a few cells are more mature as can be seen from Figure 6. 
 
@@ -45,7 +45,7 @@ Figure 8. Visualization of Inner Product Score (Perturb Simulation * Development
 
 Figure 9. Genes Knocked Out vs. Inner Product Scores
 
-## Question 4 How can your computational methods be translated to help engineer human cardiomyocytes?##
+## Question 4 How can your computational methods be translated to help engineer human cardiomyocytes? ##
 Same assessments and TF screening methods from question 1 to 3 were applied to human iPSCs. However, initially, we performed gene mapping for human cells on mouse cells as the two species have different names for orthologs. 
 As shown in Figure 13, since the scores are all positive, knockout of each of the four TFs (Foxo1, Prdm1, Cux1, Ctcf) cannot provide enough improvement for the maturity of CMs, suggesting that they should be absent in order to support CM cells maturation. This result for Foxo1 is especially consistent with the previous result obtained by Uosaki et al (2015, Transcriptional landscape of Cardiomyocyte Maturation). Foxo1 was found to be decreased in expression in neonatal adult CM cells.
 
