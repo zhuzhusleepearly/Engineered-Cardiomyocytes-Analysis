@@ -9,20 +9,15 @@ Figure 1. Trained Model Reliability
 Figure 2. Heatmap of Cell Types in Different Batches From the Reference Dataset. Cardiac Muscle Cell Mainly Expressed in Batch 6 (day 14). Cardiac Muscle Cell Counts: 184
 
 Figure 3. UMAP of Cardiac Muscle Cells, Fibroblast, and Smooth Muscle Cells
+
 	In terms of exploring the dataset, dimensionality reduction of Stone’s engineered CMs with uniform manifold approximation and projection (UMAP) revealed that clusters are formed for certain cell types (Fig.3). 
 
 ## Question 2 How mature are your engineered cardiomyocytes? ##
 The CM cells were selected from the previous procedure. The second step is to determine the temporal maturity of the CM cells. Using the entropy method described in Kannan et al’s paper and the featured CM maturation TF (transcription factor) markers from Padula et al’s paper (2021), 
-Cells with higher maturity tend to have lower entropy values (Figure 4 & 5, Table 1). The engineered CM cells are relatively less mature with the majority of cells enriched at early time points, e14, e18 and p0 stages. Only a few cells are more mature as can be seen from Figure 6. 
+Cells with higher maturity tend to have lower entropy values (Figure 4). The engineered CM cells are relatively less mature with the majority of cells enriched at early time points, e14, e18 and p0 stages. Only a few cells are more mature as can be seen from Figure 6. 
 
 
 Figure 4. Shannon Entropy of Each Timepoint in Kannan’s Reference Dataset
-
-
-Table 1. Reassignment of Time Point From Developmental Timepoint. Entropy values shown are average values in different time point stages of CM cells.
-
-
-Figure 5. Correlation between developmental time points and the average Shannon entropy values. Low entropy value indicates a highly differentiated state. 
 
 
 Figure 6. Shannon Entropy of Each Timepoint in Stone’s Engineered CM Cells. Batch 3, 4, 5 and 6 indicate day 2, 3, 7 and 14, respectively. Timepoint values were assigned depending on the developmental time scale (see Table 1 for reference).
